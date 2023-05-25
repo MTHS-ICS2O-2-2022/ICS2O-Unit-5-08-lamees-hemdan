@@ -29,7 +29,7 @@ func main() {
 	var counter int = 0
 
 	for number1 >= number2 {
-		number1 = number1 - number2
+		number1 -= number2
 		counter++
 	}
 
